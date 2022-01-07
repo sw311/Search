@@ -22,18 +22,18 @@ function Print(){
 }//시간과 날짜 지정 함수를 지정된 간격마다 실행하기
 
 function ChangeBackgroundImage(){
-  var i = makeRandom(1, 3);
-  if (i=1){
+  var i = randomNum(1, 4);
+  if (i = 1){
     document.body.style.backgroundImage = "url('aurora-1197753_1920 (1).jpg')";
-  }else if (i=2){
+  }else if (i = 2){
     document.body.style.backgroundImage = "url('iceland-2111811_1920 (1).jpg')";
   }else{
     document.body.style.backgroundImage = "url('northern-lights-6862969_1920.jpg')";
   }
 }//랜덤으로 배경 이미지 지정하기
-function makeRandom(min, max){
-    var RandVal = Math.floor(Math.random()*(max-min+1)) + min;
-    return RandVal;
+function randomNum(min, max){
+  var randNum = Math.floor(Math.random()*(max-min+1)) + min; 
+  return randNum; 
 }//랜덤 수 반환 함수
 
 Print();
