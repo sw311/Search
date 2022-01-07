@@ -1,0 +1,17 @@
+#time {
+  text-align: center;
+  margin-top: 230px;
+  font-size: 90px;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+}
+#date {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+}
+.input {
+  width: 584px;
+  margin-top: 30px;
+}
