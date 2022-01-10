@@ -23,9 +23,9 @@ function Print(){
 
 function ChangeBackgroundImage(){
   var i = randomNum(1, 4);
-  if (i = 1){
+  if (i === 1){
     document.body.style.backgroundImage = "url('aurora-1197753_1920 (1).jpg')";
-  }else if (i = 2){
+  }else if (i === 2){
     document.body.style.backgroundImage = "url('iceland-2111811_1920 (1).jpg')";
   }else{
     document.body.style.backgroundImage = "url('northern-lights-6862969_1920.jpg')";
